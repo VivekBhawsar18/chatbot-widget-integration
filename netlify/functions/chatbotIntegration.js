@@ -44,11 +44,11 @@ exports.handler = async function (event, context) {
                 chatbotContainer.style.bottom = "20px";
                 chatbotContainer.style.right = "20px";
                 chatbotContainer.style.width = "400px";
-                chatbotContainer.style.height = "500px";
+                chatbotContainer.style.height = "550px";
                 chatbotContainer.style.borderRadius = "10px";
                 chatbotContainer.style.boxShadow = "0 4px 8px rgba(0, 0, 0, 0.2)";
                 chatbotContainer.style.zIndex = "9999";
-                chatbotContainer.style.overflow = "hidden"; // Prevents border overflow
+                chatbotContainer.style.overflow = "visible"; // Prevents border overflow
 
                 const iframe = document.createElement("iframe");
                 iframe.src = "https://ataichatbot.netlify.app";
